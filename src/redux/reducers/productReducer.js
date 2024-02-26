@@ -6,9 +6,9 @@ const initialState = { //object
             id:1,
             title:"Shweta",
             category:"programmer",
-        }
-    ] //the products will be an empty array
-} //ye intialstate hein product ki
+        },
+    ], //the products will be an empty array
+}; //ye intialstate hein product ki
 
 export const productReducer = (state, {type, payload}) =>{
     switch (type) {
@@ -17,4 +17,4 @@ export const productReducer = (state, {type, payload}) =>{
         dafault: 
             return state;
     }
-}
+};
