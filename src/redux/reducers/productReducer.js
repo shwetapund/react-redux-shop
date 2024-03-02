@@ -10,7 +10,7 @@ const initialState = { //object
     ], //the products will be an empty array
 }; //ye intialstate hein product ki
 
-export const productReducer = (state, {type, payload}) =>{
+export const productReducer = (state = initialState, {type, payload}) =>{
     switch (type) {
         case ActionTypes.SET_PRODUCTS:
             return state;
