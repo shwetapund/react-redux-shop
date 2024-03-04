@@ -1,12 +1,13 @@
 import React from 'react';
+import './Header.css';
 
 const Header = ()=>{
     return(
         <>
          {/*this are the class which are using from the Semantic ui */}
-        <div className='ui fixed menu'> 
+        <div className='ui fixed menu header'> 
             <div className='ui container center'>
-                <h2>SaiShop</h2>
+                <h1>SaiShop</h1>
             </div>
         </div>
         </>
